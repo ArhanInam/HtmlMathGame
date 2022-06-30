@@ -1,0 +1,44 @@
+body
+{
+	background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+h1
+{
+	text-align: center;
+	text-decoration: wavy;
+	color: rgb(255, 0, 0);
+	font-family: sans-serif;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: cyan;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #c92559;
+padding: 10px;
+float: none;
+text-align: left;
+}
